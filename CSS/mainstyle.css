@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+nav{ padding: 10px}
+nav ul{margin: 0; padding:0; list-style: none; display:flex; justify-content: center; align-items: center}
+nav ul li{position: relative}
+nav ul li a{text-decoration: none; color:#fff; padding: 5px 20px; border-radius: 10px; display: block}
+nav ul li a:hover{border: 1px solid #fff}
+nav ul ul{position: absolute; left: 0; top: 100%; width: 150%; display: none; background: #58732F }
+nav ul li:hover >ul{display: block}
+main{min-height: 500px}
+main{ min-height: 500px}
+
+footer{ 
+	min-height: 650px;
+	background-image: url("../images/bg-footer.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding-top: 50px; color: #fff
+
+}
